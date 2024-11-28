@@ -1,0 +1,16 @@
+com\example\demo\entity\cliente\ClienteEntity.class
+com\example\demo\DemoApplication.class
+com\example\demo\repository\cliente\IClienteRepo.class
+com\example\demo\repository\producto\ProductoRepo.class
+com\example\demo\controller\ventas\VentasController.class
+com\example\demo\service\producto\ProductoService.class
+com\example\demo\controller\cliente\ClienteController.class
+com\example\demo\repository\ventas\IVentasRepo.class
+com\example\demo\entity\ventas\VentasEntity.class
+com\example\demo\service\producto\IProductoService.class
+com\example\demo\service\ventas\VentasService.class
+com\example\demo\entity\producto\ProductoEntity.class
+com\example\demo\controller\producto\ProductoController.class
+com\example\demo\service\ventas\IVentasService.class
+com\example\demo\service\cliente\ClienteService.class
+com\example\demo\service\cliente\IClienteService.class

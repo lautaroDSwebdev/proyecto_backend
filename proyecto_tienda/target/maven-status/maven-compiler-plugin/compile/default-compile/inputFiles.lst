@@ -1,0 +1,16 @@
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\controller\cliente\ClienteController.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\controller\producto\ProductoController.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\controller\ventas\VentasController.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\DemoApplication.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\entity\cliente\ClienteEntity.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\entity\producto\ProductoEntity.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\entity\ventas\VentasEntity.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\repository\cliente\IClienteRepo.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\repository\producto\ProductoRepo.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\repository\ventas\IVentasRepo.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\service\cliente\ClienteService.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\service\cliente\IClienteService.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\service\producto\IProductoService.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\service\producto\ProductoService.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\service\ventas\IVentasService.java
+C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\service\ventas\VentasService.java
