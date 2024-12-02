@@ -19,13 +19,12 @@ public class ProductoController {
     public List<ProductoEntity> getProducts(){
         return prod_service.getProductos();
     }
+
+
 //    @GetMapping("/get/falta_stock")
-//    public String getProductosQantStock(){
-//        if (prod_service.getProductosQantStock() < 5){
-//            return "falta stock, es menor a 5, este es el stock: "
-//                    + prod_service.getProductosQantStock() ;
-//        }
-//            return "Hay suficiente stock";
+//    public Long getProductosQantStock(){
+//
+//        return prod_service.getProductos();
 //    }
     @PostMapping("/post")
     public String postProducts(@RequestBody ProductoEntity e ){

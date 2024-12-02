@@ -17,6 +17,21 @@ public class VentasController {
     public List<VentasEntity> getVentas(){
         return ven_serv.getVentas();
     }
+
+    @GetMapping("/get/{codigo_venta}")
+    public VentasEntity getProductosVendidos(@PathVariable Long codigo_venta ){
+            for(VentasEntity  i : ven_serv.getVentas()) {
+                if(i.getCodigo_venta().equals(codigo_venta)  ){
+                    return i;
+                }
+            }
+        return null;
+    }
+
+
+
+
+
     @PostMapping("/post")
     public String  postVentas(@RequestBody VentasEntity e){
         ven_serv.postVentas(e);
