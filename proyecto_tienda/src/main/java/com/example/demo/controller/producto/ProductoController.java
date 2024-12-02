@@ -22,9 +22,13 @@ public class ProductoController {
 
 
 //    @GetMapping("/get/falta_stock")
-//    public Long getProductosQantStock(){
-//
-//        return prod_service.getProductos();
+//    public ProductoEntity getProductosQantStock(){
+//        for (ProductoEntity i  : prod_service.getProductosQantStock()) {
+//            if( i.getStock() < 5){
+//                return prod_service;
+//            }
+//        }
+//        return null;
 //    }
     @PostMapping("/post")
     public String postProducts(@RequestBody ProductoEntity e ){
