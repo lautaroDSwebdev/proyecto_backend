@@ -57,6 +57,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.demo.entity.ventas" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\controller" />
       <recent name="C:\Users\lauta\Desktop\aEjercicoosJAVA\aEjercicios JPA Hibernate\proyectoFinalcurso\src\main\java\com\example\demo\service" />
