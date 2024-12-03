@@ -3,6 +3,8 @@ package com.example.demo.controller.producto;
 import com.example.demo.entity.producto.ProductoEntity;
 import com.example.demo.service.producto.IProductoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,6 +20,15 @@ public class ProductoController {
     @GetMapping("/get")
     public List<ProductoEntity> getProducts(){
         return prod_service.getProductos();
+    }
+    @GetMapping("/get/{codigo_producto}")
+    public ResponseEntity<?> getProducts(@PathVariable Long codigo_producto){
+        for (ProductoEntity  e  : prod_service.getProductos() ) {
+            if(e.getCodigo_producto().equals(codigo_producto)){
+                return ResponseEntity.ok(e);
+            }
+        }
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body("No se pudo encontrar");
     }
 
 
